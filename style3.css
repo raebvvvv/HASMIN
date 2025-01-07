@@ -4,6 +4,7 @@ body {
 
 .navbar-brand {
     font-weight: bold;
+    
 }
 
 .card {
@@ -20,9 +21,13 @@ body {
 }
 .col-md-3{
     float: right;
-  
+
 }
 img{
     height: 60px;
     margin-right: 5px;
   }
+
+#myChart{
+    width:100%;
+}
