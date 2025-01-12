@@ -39,7 +39,7 @@
 
     <!-- Ticket Management -->
     <div class="container mt-5">
-        <h1>Ticket Management</h1>
+        <h1>Tickets</h1>
         <div class="row">
             <div class="col-md-12">
                 <!-- Ticket Table -->
@@ -51,61 +51,30 @@
                                 <tr>
                                     <th scope="col">#</th>
                                     <th scope="col">User</th>
-                                    <th scope="col">Issue</th>
+                                    <th scope="col">Items Borrowed</th>
+                                    <th scope="col">Borrowed Date</th>
+                                    <th scope="col">Date of return</th>
                                     <th scope="col">Status</th>
                                     <th scope="col">Actions</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <!-- Sample Data -->
+                            <tbody id="ticket-table-body">
+                                <!-- Tickets will be populated here -->
                                 <tr>
                                     <th scope="row">1</th>
-                                    <td>user1</td>
-                                    <td>Issue 1</td>
-                                    <td>Open</td>
+                                    <td>2022-08680-MN-0</td>
+                                    <td>Spatula, Spoon</td>
+                                    <td>January 12, 2025</td>
+                                    <td>January 13, 2025</td>
+                                    <td>Ongoing</td>
+                                    <td>Borrowed</td>
                                     <td>
                                         <button class="btn btn-primary btn-sm">Edit</button>
                                         <button class="btn btn-danger btn-sm">Delete</button>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>user2</td>
-                                    <td>Issue 2</td>
-                                    <td>Closed</td>
-                                    <td>
-                                        <button class="btn btn-primary btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
-                                    </td>
-                                </tr>
-                                <!-- Add more rows as needed -->
                             </tbody>
                         </table>
-                    </div>
-                </div>
-
-                <!-- Add Ticket Form -->
-                <div class="card mt-4">
-                    <div class="card-body">
-                        <h5 class="card-title">Add New Ticket</h5>
-                        <form>
-                            <div class="mb-3">
-                                <label for="user" class="form-label">User</label>
-                                <input type="text" class="form-control" id="user" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="issue" class="form-label">Issue</label>
-                                <input type="text" class="form-control" id="issue" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="status" class="form-label">Status</label>
-                                <select class="form-control" id="status" required>
-                                    <option value="Open">Open</option>
-                                    <option value="Closed">Closed</option>
-                                </select>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Add Ticket</button>
-                        </form>
                     </div>
                 </div>
             </div>
