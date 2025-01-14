@@ -50,18 +50,19 @@
                                 <tr>
                                     <th scope="col">#</th>
                                     <th scope="col">Student Number/ Teacher Number</th>
+                                    <th>Name</th>
                                     <th scope="col">Email</th>
-                                    <th></th>
+                                    
                                     <th scope="col">Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
-                               
+                        
                                 <tr>
                                     <th scope="row">1</th>
                                     <td>2022-08680-MN-0</td>
+                                    <td>Pedro Penduko</td>
                                     <td>pedro@gmail.com</td>
-                                    <td></td>
                                     <td>
                                         <button class="btn btn-primary btn-sm">Edit</button>
                                         <button class="btn btn-danger btn-sm">Delete</button>
@@ -70,8 +71,9 @@
                                 <tr>
                                     <th scope="row">2</th>
                                     <td>2022-087778-MN-0</td>
+                                    <td>Juan Cruz</td>
                                     <td>juan@gmail.com</td>
-                                    <td></td>
+                                    
                                     <td>
                                         <button class="btn btn-primary btn-sm">Edit</button>
                                         <button class="btn btn-danger btn-sm">Delete</button>
@@ -90,6 +92,10 @@
                         <form>
                             <div class="mb-3">
                                 <label for="username" class="form-label">Student Number/Teacher Number</label>
+                                <input type="text" class="form-control" id="stnum" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Full Name</label>
                                 <input type="text" class="form-control" id="username" required>
                             </div>
                             <div class="mb-3">
