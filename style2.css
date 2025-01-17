@@ -11,11 +11,6 @@ body {
     margin-top: 50px;
   }
   
-  .list-group-item.active {
-    background-color: #007bff;
-    border-color: #007bff;
-  }
-  
   .card {
     margin-top: 20px;
     border: none;
@@ -24,20 +19,6 @@ body {
   
   .card-title {
     color: #007bff;
-  }
-  
-  .modal-content {
-    background-color: #ffffff;
-    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .modal-header {
-    border-bottom: none;
-  }
-  
-  .modal-footer {
-    border-top: none;
   }
   
   .btn-primary {
@@ -62,7 +43,14 @@ body {
   .navbar-custom {
     background-color: white;
   }
-  img{
+  .logo{
     height: 60px;
-    
+  
+  }
+  #contact{
+    margin-bottom: 100px;
+  }
+  .hasmin{
+    height: 300px;
+    width: 100%;
   }

@@ -18,6 +18,15 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                      </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="admin.html">Dashboard</a>
                     </li>
                     <li class="nav-item">
@@ -56,20 +65,21 @@
                                     <th scope="col">Borrowed Date</th>
                                     <th scope="col">Date of Return</th>
                                     <th scope="col">Status</th>
-                                   
+                                    <th scope="col">Actions</th>
                                 </tr>
                             </thead>
                             <tbody id="pending-tickets-body">
                                 <td>1</td>
-                                <td>2022-XXXX-XX-0</td>
-                                <td>Kokoy Aquino</td>
-                                <td>2</td>
-                                <td>01/04/2025</td>
-                                <td>01/06/2025</td>
+                                <td>2022-08670-MN-0</td>
+                                <td>Juan</td>
+                                <td>1</td>
+                                <td>01/08/25</td>
+                                <td>01/09/25</td>
                                 <td>Pending</td>
                                 <td>
                                     <button class="btn btn-primary btn-sm">Edit</button>
-                                    <button class="btn btn-danger btn-sm">Delete</button>
+                                    <button class="btn btn-success btn-sm">Approve</button>
+                                    <button class="btn btn-danger btn-sm">Reject</button>
                                 </td>
                             </tbody>
                         </table>
@@ -90,18 +100,22 @@
                                     <th scope="col">Borrowed Date</th>
                                     <th scope="col">Date of Return</th>
                                     <th scope="col">Status</th>
+                                    <th scope="col">Remark</th>
+                                    <th scope="col">Actions</th>
                                 </tr>
                             </thead>
                             <tbody id="approved-tickets-body">
                                 <td>1</td>
-                                <td>2022-XXXX-XX-0</td>
-                                <td>Pendro Penduko</td>
-                                <td>2</td>
-                                <td>01/04/2025</td>
-                                <td>01/05/2025</td>
+                                <td>2022-08670-MN-0</td>
+                                <td>Juan</td>
+                                <td>1</td>
+                                <td>01/08/25</td>
+                                <td>01/09/25</td>
                                 <td>Ongoing</td>
+                                <td>Complete</td>
                                 <td>
                                     <button class="btn btn-primary btn-sm">Edit</button>
+                                    <button class="btn btn-success btn-sm">Complete</button>
                                     <button class="btn btn-danger btn-sm">Delete</button>
                                 </td>
                             </tbody>
@@ -123,16 +137,19 @@
                                     <th scope="col">Borrowed Date</th>
                                     <th scope="col">Date of Return</th>
                                     <th scope="col">Status</th>
+                                    <th scope="col">Remark</th>
+                                    <th scope="col">Actions</th>
                                 </tr>
                             </thead>
                             <tbody id="completed-tickets-body">
                                 <td>1</td>
-                                <td>2022-XXXX-XX-0</td>
-                                <td>Juan Cruz</td>
-                                <td>2</td>
-                                <td>01/04/2025</td>
-                                <td>01/05/2025</td>
-                                <td>Returned</td>
+                                <td>2022-08670-MN-0</td>
+                                <td>Juan</td>
+                                <td>1</td>
+                                <td>01/08/25</td>
+                                <td>01/09/25</td>
+                                <td>Ongoing</td>
+                                <td>Complete</td>
                                 <td>
                                     <button class="btn btn-primary btn-sm">Edit</button>
                                     <button class="btn btn-danger btn-sm">Delete</button>
@@ -144,7 +161,6 @@
             </div>
         </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
