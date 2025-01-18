@@ -9,29 +9,6 @@
 </head>
 <body>
  
-   <!--Welcome Modal-->
-   <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="welcomeModalLabel">Welcome</h5>
-        </div>
-        <div class="modal-body">
-          Welcome to Hasmin Project
-        </div>
-      </div>
-    </div>
-  </div>
-  <script>
-    // Automatically show the modal when the page loads and hide it after 3 seconds
-    window.addEventListener('load', function() {
-      const welcomeModal = new bootstrap.Modal(document.getElementById('welcomeModal'));
-      welcomeModal.show();
-      setTimeout(() => {
-        welcomeModal.hide();
-      }, 2000); // 2 seconds
-    });
-  </script>             
   <!--Main window-->
   <div class="container">
     <h1>Login</h1>
