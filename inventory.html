@@ -8,43 +8,35 @@
     <title>Inventory Management</title>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/puplogo.png" alt="PUP Logo"> PUP HASMIN</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact us</a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="admin.html">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inventory</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="manageuser.html">Manage Users</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ticket.html">Tickets</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Logout</a>
-                    </li>
-                </ul>
-            </div>
+    <header class="bg-light border-bottom py-3 shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img src="images/puplogo.png" alt="Logo" class="center-img" style="height: 30px; margin-right: 10px;">
+                        <span class="fw-bold">HM Kitchen Tools</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a href="landing.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                            <li class="nav-item"><a href="inventory.html" class="nav-link">Borrow Tools</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link " href="admin.html">Dashboard</a></li>
+                            <li class="nav-item"><a class="nav-link fw-bold" href="inventory.html">Inventory</a></li>
+                            <li class="nav-item"><a class="nav-link" href="manageuser.html">Manage Users</a></li>
+                            <li class="nav-item"><a class="nav-link" href="ticket.html">Tickets</a></li>
+                            <a href="login.html" class="btn btn-primary rounded-pill px-4">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
-    </nav>
+    </header>
 
     <!-- Inventory Management -->
     <div class="container mt-5">
