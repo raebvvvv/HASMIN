@@ -4,35 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="landingstyle.css">
     <title>Contact Us - PUP Hasmin</title>
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="images/puplogo.png" alt="PUP Logo" class="logo"> PUP Hasmin</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="landing.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="login.html">Login</a>
-          </li>
-        </ul>
-      </div>
+    <header class="bg-light border-bottom py-3">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="images/puplogo.png" alt="Logo" class="center-img" style="height: 30px; margin-right: 10px;">
+                    <span class="fw-bold">HM Kitchen Tools</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a href="landing.html" class="nav-link text-dark fw-bold">Home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link text-dark fw-bold">About Us</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-dark fw-bold">Borrow Tools</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link text-dark fw-bold">Contact</a></li>
+                        <li class="nav-item"><a href="blog.html" class="nav-link text-dark fw-bold">Announcements</a></li>
+                    </ul>
+                    <div class="d-lg-none mt-2">
+                        <a href="login.html" class="btn btn-outline-primary w-100 mb-2">Login</a>
+                    </div>
+                </div>
+                <div class="d-none d-lg-flex">
+                    <a href="login.html" class="btn btn-outline-primary me-2">Login</a>
+                </div>
+            </div>
+        </nav>
     </div>
-  </nav>
+  </header>
 
     <!-- Contact Us Section -->
     <div class="container mt-5">
