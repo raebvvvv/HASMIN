@@ -1,17 +1,49 @@
-#navbarNav {
-    margin-right: 100px;
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: "Inter";
 }
 
-.center-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.navbar-brand span {
+    color: blue;
+}
+
+.btn-primary {
+    background-color: skyblue;
+    border: none;
+    transition: all 0.3s ease-in-out;
 }
 
 .full-width-img {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    max-height: 500px; /* Adjust this value as needed */
+    height: auto;
+    max-height: 400px;
     object-fit: cover;
-    margin-top: -50px;
+    border-radius: 10px;
+}
+
+.team-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.team-photo:hover {
+    transform: scale(1.1);
+}
+
+.team-card {
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.team-card:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-10px);
+}
+
+#tools{
+    margin-top: -20px;
 }

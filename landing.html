@@ -6,10 +6,13 @@
     <title>HM Kitchen Tool</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="landingstyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="bg-light border-bottom py-3">
+    <!-- Navbar -->
+    <header class="bg-light border-bottom py-3 shadow-sm">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
@@ -22,70 +25,68 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a href="#" class="nav-link text-dark fw-bold">Home</a></li>
+                            <li class="nav-item"><a href="landing.html" class="nav-link text-dark fw-bold">Home</a></li>
                             <li class="nav-item"><a href="about.html" class="nav-link text-dark fw-bold">About Us</a></li>
                             <li class="nav-item"><a href="inventory.html" class="nav-link text-dark fw-bold">Borrow Tools</a></li>
                             <li class="nav-item"><a href="contact.html" class="nav-link text-dark fw-bold">Contact</a></li>
-                            <li class="nav-item"><a href="blog.html" class="nav-link text-dark fw-bold">Announcements</a></li>
+                            <li class="nav-item"><a href="announcements.html" class="nav-link text-dark fw-bold">Announcements</a></li>
                         </ul>
-                        <div class="d-lg-none mt-2">
-                            <a href="login.html" class="btn btn-outline-primary w-100 mb-2">Login</a>
-                        </div>
-                    </div>
-                    <div class="d-none d-lg-flex">
-                        <a href="login.html" class="btn btn-outline-primary me-2">Login</a>
+                        <a href="login.html" class="btn btn-primary rounded-pill px-4">Login</a>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
-
-    <section class="hero text-center py-5 bg-white">
+    <!-- Hero Section -->
+    <section class="hero text-center py-5 bg-light">
         <div class="container">
-            <h1 class="display-5">Welcome to HM Kitchen Tools</h1>
-            <p class="lead">Easily borrow and return kitchen tools with our user-friendly platform. Say goodbye to the hassle of borrowing kitchen tools.</p>
+            <h1 class="display-5 fw-bold text-primary">Welcome to HM Kitchen Tools</h1>
+            <p class="lead text-muted">Easily borrow and return kitchen tools with our user-friendly platform. Say goodbye to the hassle of borrowing kitchen tools.</p>
         </div>
     </section>
 
-    <div class="text-center my-4">
-        <img src="images/tools.png" class="img-fluid full-width-img" alt="Kitchen Tools">
+    <!-- Hero Image -->
+    <div class="text-center">
+        <img src="images/tools.png" class="img-fluid full-width-img shadow-lg rounded" alt="Kitchen Tools" id="tools">
     </div>
 
+    <!-- Borrowing Section -->
     <section class="borrowing-section bg-light py-5 text-center position-relative">
         <div class="container">
-            <h2 class="mb-4">Start Borrowing Kitchen Tools Today</h2>
-            <p class="mb-4">Explore our wide range of kitchen tools available for borrowing and make your cooking experience hassle-free.</p>
-            <a href="#" class="btn btn-primary">Browse Inventory</a>
+            <h2 class="fw-bold mb-4">Start Borrowing Kitchen Tools Today</h2>
+            <p class="text-muted mb-4">Explore our wide range of kitchen tools available for borrowing and make your cooking experience hassle-free.</p>
+            <a href="inventory.html" class="btn btn-primary px-4 py-2 rounded-pill">Browse Inventory</a>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section class="contact-section bg-white py-5">
         <div class="container text-center">
-            <h2 class="mb-4">Contact Us</h2>
-            <p class="mb-5">Feel free to reach out to us for any inquiries or assistance regarding our kitchen tools inventory management system.</p>
+            <h2 class="fw-bold mb-4">Contact Us</h2>
+            <p class="text-muted mb-5">Feel free to reach out to us for any inquiries or assistance regarding our kitchen tools inventory management system.</p>
             <div class="row g-4">
                 <div class="col-12 col-md-4">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope mb-3" style="font-size: 40px;"></i>
+                    <div class="contact-item border p-4 rounded shadow-sm">
+                        <i class="fas fa-envelope mb-3 text-primary" style="font-size: 40px;"></i>
                         <h3>Email</h3>
-                        <p>We value your feedback and suggestions. Let us know how we can improve our services to better meet your needs.</p>
-                        <p>info@hmkitchen.com</p>
+                        <p class="text-muted">We value your feedback and suggestions. Let us know how we can improve our services to better meet your needs.</p>
+                        <p class="fw-bold">info@hmkitchen.com</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="contact-item">
-                        <i class="fas fa-phone mb-3" style="font-size: 40px;"></i>
+                    <div class="contact-item border p-4 rounded shadow-sm">
+                        <i class="fas fa-phone mb-3 text-primary" style="font-size: 40px;"></i>
                         <h3>Phone</h3>
-                        <p>For any technical support or issues with the system, please contact our support team for immediate assistance.</p>
-                        <p>+639171859842</p>
+                        <p class="text-muted">For any technical support or issues with the system, please contact our support team for immediate assistance.</p>
+                        <p class="fw-bold">+639171859842</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt mb-3" style="font-size: 40px;"></i>
+                    <div class="contact-item border p-4 rounded shadow-sm">
+                        <i class="fas fa-map-marker-alt mb-3 text-primary" style="font-size: 40px;"></i>
                         <h3>Office</h3>
-                        <p>Stay connected with us on social media for updates, tips, and news related to kitchen tools and inventory management.</p>
-                        <p>372 Valencia PUP Hasmin Building, Sta. Mesa, Maynila, 1016 Kalakhang Maynila</p>
+                        <p class="text-muted">Stay connected with us on social media for updates, tips, and news related to kitchen tools and inventory management.</p>
+                        <p class="fw-bold">372 Valencia PUP Hasmin Building, Sta. Mesa, Manila</p>
                     </div>
                 </div>
             </div>
